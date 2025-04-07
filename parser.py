@@ -5,6 +5,7 @@ import logging
 import json
 import os
 
+
 #Логирование 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(name)
@@ -60,4 +61,4 @@ async def main():
     logger.info(f"Собрано {len(posts_data)} постов из каналов.")
 
 if name == 'main':
-    asyncio.run(main())
+    asyncio.run(main())  
