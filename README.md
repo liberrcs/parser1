@@ -1,6 +1,6 @@
 # Telegram Channel Post Scraper
 
-Этот проект представляет собой скрипт на Python, который использует библиотеку Telethon для сбора постов из указанных Telegram-каналов и сохранения их в формате JSON.
+Этот проект представляет собой скрипт на Python, который использует библиотеку Telethon для сбора постов из указанных Telegram-каналов и сохранения их в графическом интерфейсе.
 
 ## Установка
 
@@ -8,11 +8,11 @@
 2. Установите необходимые библиотеки с помощью pip:
 
    ```bash
-   pip install telethon
-   pip install telethon.tl.types
-   pip install logging
+   pip install asyncio
+   pip install threading
+   pip install tkinter
+   pip install TelegramClient
    pip install json
-   pip install os
 
 ### Настройка 
 Можете найти API_ID и API_HASH на сайте "https://my.telegram.org/auth".
